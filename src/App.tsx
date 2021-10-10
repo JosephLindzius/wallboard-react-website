@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import {Button} from "./components/Button";
+import logo from "./assets/logo.svg"
 
 function App() {
     return (
@@ -8,7 +9,7 @@ function App() {
             <header>
                 <nav className="navbar navbar-light bg-light ">
                     <a className="navbar-brand ms-2" href="#">
-                        <img src="/logo.svg" width="30" height="30" alt="" />
+                        <img src={logo} width="30" height="30" alt="" />
                     </a>
                 </nav>
             </header>
@@ -18,7 +19,7 @@ function App() {
                         <h3>Online tools</h3>
                 </header>
                 <div className="row m-1 mb-5 justify-content-center gap-3 flex-wrap">
-                    <section className="card px-sm-2 p-2 d-flex justify-content-center col-lg-4 col-sm-1">
+                    <section className="card px-sm-2 p-2 d-flex justify-content-center col-lg-4">
                         <h5 className="card-title mx-1 mt-2">Try Kinetic Energy Now!</h5>
                         <p className="card-text mx-1">All your todos in one place and more!</p>
                         <Button text="Try now"  href="https://wallboard-ke.netlify.app/"/>
