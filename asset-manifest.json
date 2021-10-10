@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/wallboard-react-website/static/css/main.b5eed4c5.chunk.css",
+    "main.js": "/wallboard-react-website/static/js/main.b911af82.chunk.js",
+    "main.js.map": "/wallboard-react-website/static/js/main.b911af82.chunk.js.map",
+    "runtime-main.js": "/wallboard-react-website/static/js/runtime-main.890296a9.js",
+    "runtime-main.js.map": "/wallboard-react-website/static/js/runtime-main.890296a9.js.map",
+    "static/css/2.40abe5ac.chunk.css": "/wallboard-react-website/static/css/2.40abe5ac.chunk.css",
+    "static/js/2.1c625dea.chunk.js": "/wallboard-react-website/static/js/2.1c625dea.chunk.js",
+    "static/js/2.1c625dea.chunk.js.map": "/wallboard-react-website/static/js/2.1c625dea.chunk.js.map",
+    "static/js/3.316d77d4.chunk.js": "/wallboard-react-website/static/js/3.316d77d4.chunk.js",
+    "static/js/3.316d77d4.chunk.js.map": "/wallboard-react-website/static/js/3.316d77d4.chunk.js.map",
+    "index.html": "/wallboard-react-website/index.html",
+    "static/css/2.40abe5ac.chunk.css.map": "/wallboard-react-website/static/css/2.40abe5ac.chunk.css.map",
+    "static/css/main.b5eed4c5.chunk.css.map": "/wallboard-react-website/static/css/main.b5eed4c5.chunk.css.map",
+    "static/js/2.1c625dea.chunk.js.LICENSE.txt": "/wallboard-react-website/static/js/2.1c625dea.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/wallboard-react-website/static/media/bjorn.b3301457.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.890296a9.js",
+    "static/css/2.40abe5ac.chunk.css",
+    "static/js/2.1c625dea.chunk.js",
+    "static/css/main.b5eed4c5.chunk.css",
+    "static/js/main.b911af82.chunk.js"
+  ]
+}
