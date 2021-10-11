@@ -1,23 +1,37 @@
+body {
+    background-attachment: fixed;
+}
+
 .App {
     font-family: 'Open Sans', sans-serif;
 }
 
 .main-background {
-    background: url("./assets/bjorn.jpeg") no-repeat;
+    background: url("assets/bruegel_background.jpeg") no-repeat;
     background-size: cover;
     height: 100vh;
     background-position-y: -200px;
 }
 
 .header-background {
-    background: url("./assets/bjorn.jpeg") no-repeat;
+    background: url("assets/bruegel_background.jpeg") no-repeat;
     background-size: cover;
     height: 600px;
     background-position-y: -200px;
 }
 
-.main-card {
-   backdrop-filter: blur(40px);
+.react-multiple-carousel__arrow {
+    min-height: 40px!important;
+    min-width: 20px!important;
+}
+
+.react-multi-carousel-list {
+    align-items: center!important;
+    margin: 0 auto;
+}
+
+.card-carousel {
+    width: 50%
 }
 
 h1 {
@@ -29,8 +43,24 @@ h3 {
 
 
 @media only screen and (max-width: 600px) {
+    .card-carousel {
+        width: 100%
+    }
+
+    .react-multiple-carousel__arrow {
+        min-height: 40px!important;
+        min-width: 40px!important;
+        width: 140px;
+        margin: 5px;
+    }
+
+    .react-multi-carousel-list {
+        align-items: flex-end!important;
+        margin: 0 auto;
+    }
+
     .main-background {
-    background: url("./assets/bjorn.jpeg") no-repeat;
+    background: url("assets/bruegel_background.jpeg") no-repeat;
     background-size: contain;
     height: 100vh;
         background-position-y: 20px;
