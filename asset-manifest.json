@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/wallboard-react-website/static/css/main.ad203f9b.chunk.css",
-    "main.js": "/wallboard-react-website/static/js/main.68060e88.chunk.js",
-    "main.js.map": "/wallboard-react-website/static/js/main.68060e88.chunk.js.map",
-    "runtime-main.js": "/wallboard-react-website/static/js/runtime-main.890296a9.js",
-    "runtime-main.js.map": "/wallboard-react-website/static/js/runtime-main.890296a9.js.map",
-    "static/css/2.40abe5ac.chunk.css": "/wallboard-react-website/static/css/2.40abe5ac.chunk.css",
-    "static/js/2.1c625dea.chunk.js": "/wallboard-react-website/static/js/2.1c625dea.chunk.js",
-    "static/js/2.1c625dea.chunk.js.map": "/wallboard-react-website/static/js/2.1c625dea.chunk.js.map",
-    "static/js/3.316d77d4.chunk.js": "/wallboard-react-website/static/js/3.316d77d4.chunk.js",
-    "static/js/3.316d77d4.chunk.js.map": "/wallboard-react-website/static/js/3.316d77d4.chunk.js.map",
+    "main.css": "/wallboard-react-website/static/css/main.5231c460.chunk.css",
+    "main.js": "/wallboard-react-website/static/js/main.da5f5407.chunk.js",
+    "main.js.map": "/wallboard-react-website/static/js/main.da5f5407.chunk.js.map",
+    "runtime-main.js": "/wallboard-react-website/static/js/runtime-main.9f067475.js",
+    "runtime-main.js.map": "/wallboard-react-website/static/js/runtime-main.9f067475.js.map",
+    "static/css/2.6be96b96.chunk.css": "/wallboard-react-website/static/css/2.6be96b96.chunk.css",
+    "static/js/2.dddb71e0.chunk.js": "/wallboard-react-website/static/js/2.dddb71e0.chunk.js",
+    "static/js/2.dddb71e0.chunk.js.map": "/wallboard-react-website/static/js/2.dddb71e0.chunk.js.map",
+    "static/js/3.9e7839be.chunk.js": "/wallboard-react-website/static/js/3.9e7839be.chunk.js",
+    "static/js/3.9e7839be.chunk.js.map": "/wallboard-react-website/static/js/3.9e7839be.chunk.js.map",
     "index.html": "/wallboard-react-website/index.html",
-    "static/css/2.40abe5ac.chunk.css.map": "/wallboard-react-website/static/css/2.40abe5ac.chunk.css.map",
-    "static/css/main.ad203f9b.chunk.css.map": "/wallboard-react-website/static/css/main.ad203f9b.chunk.css.map",
-    "static/js/2.1c625dea.chunk.js.LICENSE.txt": "/wallboard-react-website/static/js/2.1c625dea.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/wallboard-react-website/static/media/bjorn.b3301457.jpeg",
-    "static/media/logo.b2884f8d.svg": "/wallboard-react-website/static/media/logo.b2884f8d.svg"
+    "static/css/2.6be96b96.chunk.css.map": "/wallboard-react-website/static/css/2.6be96b96.chunk.css.map",
+    "static/css/main.5231c460.chunk.css.map": "/wallboard-react-website/static/css/main.5231c460.chunk.css.map",
+    "static/js/2.dddb71e0.chunk.js.LICENSE.txt": "/wallboard-react-website/static/js/2.dddb71e0.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/wallboard-react-website/static/media/bruegel_background.b3301457.jpeg",
+    "static/media/logo.b2884f8d.svg": "/wallboard-react-website/static/media/logo.b2884f8d.svg",
+    "static/media/styles.css": "/wallboard-react-website/static/media/revicons.e8746a62.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.890296a9.js",
-    "static/css/2.40abe5ac.chunk.css",
-    "static/js/2.1c625dea.chunk.js",
-    "static/css/main.ad203f9b.chunk.css",
-    "static/js/main.68060e88.chunk.js"
+    "static/js/runtime-main.9f067475.js",
+    "static/css/2.6be96b96.chunk.css",
+    "static/js/2.dddb71e0.chunk.js",
+    "static/css/main.5231c460.chunk.css",
+    "static/js/main.da5f5407.chunk.js"
   ]
 }
