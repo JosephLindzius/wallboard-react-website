@@ -6,6 +6,7 @@ import logo from "./assets/logo.svg"
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import {getQuote} from "./services/quote-service";
+import {Card} from "./components/Card";
 
 function App() {
 
@@ -21,7 +22,6 @@ function App() {
 
     const responsive = {
         superLargeDesktop: {
-            // the naming can be any, depends on you.
             breakpoint: { max: 4000, min: 3000 },
             items: 1
         },
@@ -73,34 +73,8 @@ function App() {
                     </section>
                 </div>
                 <Carousel className="row-fluid card-carousel pb-5" responsive={responsive} arrows={true}>
-                    <div className="card">
-                        <div className="card-header text-center">
-                            Random quotes of inspiration
-                        </div>
-                        <div className="card-body px-5">
-                            <blockquote className="blockquote mb-0">
-                                <p>“{quote.content}”</p>
-                                <footer className="blockquote-footer">{quote.author}</footer>
-                            </blockquote>
-                        </div>
-
-                    </div>
-                    <div className="card pb-5">
-                        <div className="card-header text-center">
-                            A moment of inspiration
-                        </div>
-                        <div className="card-body px-5">
-                            <blockquote className="blockquote mb-0">
-                                <p>“Invention is the most important product of man's creative brain. The ultimate purpose is the complete mastery of mind over the material world, the harnessing of human nature to human needs.”</p>
-                                <footer className="blockquote-footer">Nikola Telsa <cite title="Source Title">My Inventions</cite></footer>
-                            </blockquote>
-                        </div>
-                    </div>
-                    <div className="card bg-light px-5" id="qotd_t">
-                        <div className="card-header text-center">
-                            <p>Quote of the Day</p>
-                        </div>
-                    </div>
+                    <Card author={quote.author} content={quote.content}></Card>
+                    <Card author="Nikola Telsa" content="Invention is the most important product of man's creative brain. The ultimate purpose is the complete mastery of mind over the material world, the harnessing of human nature to human needs."></Card>
                 </Carousel>
             </main>
 
